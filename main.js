@@ -70,8 +70,7 @@ function mostrarUsuario(array) {
 
     }
     let resultado = name2 + apellido12 + apellido22 + suma;
-    /* console.log("Nombre: " + array[0] + "Apellido: " + array[1] + "Apellido2: "
-        + array[2] + "DNI: " + dniTotal + "Usuario: " + resultado); */
+
     document.write("Nombre: " + array[0] + "<br>");
     document.write("Primer apellido: " + array[1] + "<br>");
     document.write("Segundo apellido: " + array[2] + "<br>");
@@ -80,11 +79,6 @@ function mostrarUsuario(array) {
 
 }
 
-
-//NOTA: Comandos utilizados para propio testing
-/* console.log(usuario());
-calcularLetraDni(); 
-console.log(mostrarUsuario()); */
 
 let miUsuario = usuario();
 miUsuario[3] = calcularLetraDni(miUsuario[3]);
